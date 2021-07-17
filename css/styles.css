@@ -24,14 +24,13 @@ body {
 }
 
 /* Header */
-.logo {
+.logo.link {
   color: var(--accent-color);
 }
-.studio {
+.studio-dark {
   color: var(--primary-text-color);
 }
-.logo,
-.studio {
+.logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -49,7 +48,6 @@ body {
 .auth-nav-list .link {
   color: var(--title-text-color);
 }
-.site-nav-list .link:hover,
 .site-nav-list .link:focus,
 .auth-nav-list .link:hover,
 .auth-nav-list .link:focus,
@@ -90,35 +88,33 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
   cursor: pointer;
 }
+/* Benefits */
 .section-list {
   list-style: none;
 }
-
-/* Section */
-.section-title {
-  color: var(--primary-text-color);
-  text-align: center;
-}
-
-/* Benefits */
-.benefit .title {
+.section-list .title {
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
-.benefit .description {
+.section-list .description {
   color: var(--title-text-color);
   font-size: 14px;
   line-height: 1.71;
 }
-
+/* Our works */
+/* Our team */
+.section-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
 /* Our team */
 .section-team {
   background-color: var(--background-third-color);
@@ -152,6 +148,9 @@ body {
   font-size: 26px;
   line-height: 1.19;
 }
+.address {
+  font-style: normal;
+}
 .address-link {
   color: var(--primary-white-color);
 }
@@ -161,7 +160,6 @@ body {
 .address-link,
 .address .link {
   text-decoration: none;
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -187,8 +185,7 @@ body {
   cursor: pointer;
 }
 .hero-portfolio .button:hover,
-.hero-portfolio .button:focus,
-.button.current {
+.hero-portfolio .button:focus {
   background: var(--accent-color);
   color: var(--primary-white-color);
 }
@@ -197,10 +194,14 @@ body {
 }
 
 /* Our works */
-.portfolio-list .title {
+.portfolio-list .item-title {
+  font-size: 18px;
+  font-weight: 700;
   color: var(--primary-text-color);
   letter-spacing: 0.06em;
 }
-.portfolio-list .type {
+.portfolio-list .item-type {
+  font-size: 16px;
+  font-weight: 400;
   color: var(--title-text-color);
 }
