@@ -91,9 +91,11 @@ body {
   cursor: pointer;
 }
 /* Benefits */
+/* Our works */
 .section-list {
   list-style: none;
 }
+/* Benefits */
 .section-list .title {
   color: var(--primary-text-color);
   font-weight: 700;
